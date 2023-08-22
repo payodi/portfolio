@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="top-icon.png">
+    <!-- box icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- remix icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">PORTFOLIO</a>
+
+        <ul class="navlist">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sites.html">Mes sites</a></li>
+            <li><a href="programmes.html">Mes programmes</a></li>
+            <li><a href="codes.html">Mes codes</a></li>
+            <li><a href="autres.html">Autres liens</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Lola Payodi</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Salut je m'appelle Lola et mon pseudo est Payodi j'ai fait ce portfolio pour ranger mes projets en classe de nsi et mes projets personel ! </p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/lola._.tz/"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.youtube.com/channel/UCEcH-EVkElCUliY8WBMupTg"><i class="ri-youtube-line"></i></a>
+                <a href="https://github.com/payodi"><i class="ri-github-fill"></i></a>
+            </div>
+            <a href="sites.html" class="btn">Mes sites</a>
+        </div>
+
+        <div class="home-img">
+            <img src="caca.png">
+        </div>
+
+     </section>
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <script src="script.js"></script>
+     <script>
+        var typed = new Typed('.multiple-text', {
+          strings: ['Beginner dev', 'NSI student'],
+          typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+        });
+      </script>
+</body>
+</html>

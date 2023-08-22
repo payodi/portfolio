@@ -1,0 +1,77 @@
+/* Ajoutez vos styles existants ici */
+
+.codes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(technology.avif);
+    background-size: cover;
+}
+/* Ajoutez vos styles existants ici */
+
+.code-list {
+    position: fixed;
+    top: 320px; /* La hauteur de la navbar */
+    bottom: 1px;
+    right: 0;
+    width: 250px;
+    background-color: #ffffff; /* Fond blanc */
+    border-left: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#codeSearch {
+    /* ... */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#searchButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.code-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: calc(100vh - 160px); /* La hauteur de la fenêtre moins la hauteur de la navbar et de la barre de recherche */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.code-card {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    /* Ajoutez d'autres styles nécessaires */
+}
+
+/* ... Autres styles ... */
+
+.code-editor{
+    position: fixed;
+    top: calc(50vh + 60px); /* La moitié de la hauteur de la fenêtre plus la hauteur de la navbar */
+    left: calc(250px + 10px); /* La largeur de la code list plus la marge */
+    width: 250px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* ... Autres styles ... */

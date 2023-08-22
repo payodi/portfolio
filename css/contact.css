@@ -1,0 +1,80 @@
+/* Styles spécifiques pour la page "Contact" */
+
+/* Styles généraux */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+
+    /* Styles pour la barre de navigation */
+
+
+/* Section Contact */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Hauteur de la fenêtre moins la hauteur de l'en-tête */
+    padding: 60px;
+    background-color: #f4f4f4;
+    background-image: url(technology.avif); /* Image de fond */
+    background-size: cover;
+}
+
+.contact-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-box h2 {
+    margin-top: 0;
+}
+
+.contact-box p {
+    margin: 10px 0;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box label {
+    font-weight: 600;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    margin: 5px 0 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-box button {
+    background-color: #18bfff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-box button:hover {
+    background-color: #1283e8;
+}
+
+/* Pied de page */
+
+    /* Styles pour le pied de page */
+
+/* Ajoutez des styles spécifiques ici */

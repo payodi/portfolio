@@ -1,0 +1,87 @@
+/* Styles spécifiques pour la page "Autres Liens" */
+
+/* Styles généraux */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navlist li a:hover {
+    color: #18bfff;
+}
+
+/* Section Autres Liens */
+.autres-liens {
+    display: flex;
+    flex-direction: column; /* Mettre les boîtes en colonne */
+    align-items: center; /* Centrer les boîtes horizontalement */
+    padding-top: 120px; /* Hauteur de la barre de navigation */
+    background-color: white; /* Fond blanc */
+    min-height: 100vh;
+    background-image: url(technology.avif); /* Image de fond */
+    background-size: cover;
+}
+
+.lien-card {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 300px; /* Largeur des boîtes */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrer le contenu dans les boîtes */
+    padding: 20px;
+}
+
+.lien-card h3 {
+    margin-top: 0;
+}
+
+.lien-card p {
+    margin: 10px 0;
+}
+
+.lien-card a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #18bfff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.lien-card a:hover {
+    background-color: #1283e8;
+}
+
+/* Pied de page */
+
+    /* Styles pour le pied de page */
+
+
+/* Ajoutez des styles spécifiques ici */
